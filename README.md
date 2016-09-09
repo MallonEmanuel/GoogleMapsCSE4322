@@ -10,3 +10,9 @@ Mobile application using Google's API to display maps specifically focusing on h
 1. Add heat map overlay for a small number of points.
 1. Database implementation for housing a giving set of points (Latitude and Longitude).
 1. Toggle for hiding or displaying point distribution. 
+
+# Sources used for Mobile Application
+
+1. Google Maps API Developer site: https://developers.google.com/maps/documentation/android-api/map
+1. Utilizing Google Maps Heat Map Utilities: https://developers.google.com/maps/documentation/android-api/utility/heatmap
+1. Using database libraries in Android: https://developer.android.com/training/basics/data-storage/databases.html
