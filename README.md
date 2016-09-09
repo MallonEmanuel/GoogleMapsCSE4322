@@ -17,3 +17,4 @@ Mobile application using Google's API to display maps specifically focusing on h
 1. Google Maps API Developer site: https://developers.google.com/maps/documentation/android-api/map
 1. Utilizing Google Maps Heat Map Utilities: https://developers.google.com/maps/documentation/android-api/utility/heatmap
 1. Using database libraries in Android: https://developer.android.com/training/basics/data-storage/databases.html
+1. Open database source for points: https://waypointer.info/
