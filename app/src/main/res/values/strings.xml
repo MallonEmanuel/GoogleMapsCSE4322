@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GoogleHMap</string>
+    <string name="current_location">Current Location</string>
+</resources>
