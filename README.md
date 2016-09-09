@@ -10,6 +10,7 @@ Mobile application using Google's API to display maps specifically focusing on h
 1. Add heat map overlay for a small number of points.
 1. Database implementation for housing a giving set of points (Latitude and Longitude).
 1. Toggle for hiding or displaying point distribution. 
+1. Toggle to turn off heat map display.
 
 # Sources used for Mobile Application
 
