@@ -32,7 +32,7 @@ import com.google.android.gms.location.LocationServices;
 
 // LatLng libraries
 import com.google.android.gms.maps.model.LatLng;
-
+import com.google.android.gms.maps.model.MarkerOptions;
 
 
 public class MainActivity extends FragmentActivity implements OnMapReadyCallback,AdapterView.OnItemSelectedListener, GoogleApiClient.ConnectionCallbacks,GoogleApiClient.OnConnectionFailedListener {
@@ -134,10 +134,19 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         googleMap.setMapType(mapType);
         //googleMap.addMarker(new MarkerOptions().position(new LatLng(0,0)).title("Marker"));
         googleMap.setMyLocationEnabled(true);
-
+        addMarkerLongClickListener(googleMap);
 
     }
 
+    public void addMarkerLongClickListener(final GoogleMap map) {
+        map.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener() {
+            @Override
+            public void onMapLongClick(LatLng latLng) {
+                map.addMarker(new MarkerOptions().position(latLng).draggable(true));
+            }
+        });
+
+    }
     /*
         Method: generateSpinner()
         parameters: none
