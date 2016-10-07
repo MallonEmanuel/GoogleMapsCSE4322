@@ -23,6 +23,32 @@
         android:touchscreenBlocksFocus="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="false"
-        android:layout_alignParentStart="true"></Spinner>
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button"></Spinner>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HeatMap ToggleButton"
+        android:id="@+id/toggleButton"
+        android:textOff="HeatMap OFF"
+        android:textOn="HeatMap ON"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/button"
+        android:textSize="12dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Heat Map"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/toggleButton"
+        android:layout_toStartOf="@+id/toggleButton"
+        android:layout_above="@+id/map"
+        android:textSize="12dp" />
 
 </RelativeLayout>

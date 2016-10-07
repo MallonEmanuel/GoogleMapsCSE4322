@@ -18,6 +18,7 @@ import android.widget.Spinner;
 // libraries to handle text display
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 // google maps API libraries
 import com.google.android.gms.common.ConnectionResult;
@@ -33,6 +34,11 @@ import com.google.android.gms.location.LocationServices;
 // LatLng libraries
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.TileOverlayOptions;
+
+import org.json.JSONException;
+
+import java.util.List;
 
 
 public class MainActivity extends FragmentActivity implements OnMapReadyCallback,AdapterView.OnItemSelectedListener, GoogleApiClient.ConnectionCallbacks,GoogleApiClient.OnConnectionFailedListener {
@@ -135,7 +141,8 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         //googleMap.addMarker(new MarkerOptions().position(new LatLng(0,0)).title("Marker"));
         googleMap.setMyLocationEnabled(true);
         addMarkerLongClickListener(googleMap);
-
+        generateHeatMapButton(googleMap);
+        toggleHeatMap(googleMap);
     }
 
     public void addMarkerLongClickListener(final GoogleMap map) {
@@ -247,5 +254,49 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         public void onNothingSelected(AdapterView<?> parent) {
         // if nothing selected then do nothing
     }
+
+    private void generateHeatMapButton(final GoogleMap googleMap) {
+
+        final Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                addHeatMap(googleMap);
+
+            }
+        });
+    }
+
+    private void toggleHeatMap(final GoogleMap googleMap) {
+
+        // get ToggleButton
+        ToggleButton b = (ToggleButton) findViewById(R.id.toggleButton);
+
+        // attach an OnClickListener
+        b.setOnClickListener(new OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                // removeHeatMap function when off
+                // add heat map function when on
+            }
+        });
+    }
+
+    private void readJSON(String filePath){
+        // code to readJSON file
+
+    }
+
+    private void addHeatMap(GoogleMap googlemap){
+        // function to add the map once the json file is parsed
+    }
+
+    private void removeHeatMap(GoogleMap googleMap){
+        // add code to remove heat map function: mOverlay.remove();
+    }
+
 
 }
