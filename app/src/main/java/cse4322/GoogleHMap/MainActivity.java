@@ -145,6 +145,13 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         toggleHeatMap(googleMap);
     }
 
+/*
+    FunctionName: AddMarkerLongClickListener
+    parameters: (NonNull) Map
+    return none
+    Use: Listens for a long press on the map. If it's more then 1 second, then a marker will be placed at that position.
+    The user can then hold the marker, and drag the marker to a new position.
+*/
     public void addMarkerLongClickListener(final GoogleMap map) {
         map.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener() {
             @Override
@@ -250,7 +257,13 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         }
 
     }
-
+/*
+    Function Name: OnNothingSelected
+    parameters: AdapterView parent
+    Return: none
+    Use: If the user does nothing on the menu, then do nothing.
+     Required for OnItemSelected method.
+*/
         public void onNothingSelected(AdapterView<?> parent) {
         // if nothing selected then do nothing
     }
