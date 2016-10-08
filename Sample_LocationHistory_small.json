@@ -2,8 +2,8 @@
   "locations" : [ {
     "timestampMs" : "1473646455162",
     "latitudeE7" : 327489249,
-    "longitudeE7" : -974883082,
-    "accuracy" : 50
+    "accuracy" : 50,
+    "longitudeE7" : -974883082
   }, {
     "timestampMs" : "1473646151560",
     "latitudeE7" : 327489249,

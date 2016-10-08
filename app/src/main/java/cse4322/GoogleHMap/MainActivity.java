@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
 // libraries for spinners
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -33,11 +34,21 @@ import com.google.android.gms.location.LocationServices;
 
 // LatLng libraries
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.TileOverlayOptions;
 
+import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FilterInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.List;
 
 
@@ -70,7 +81,6 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         generateSpinner();                      // place the spinner on the fragment view.
 
         drop_down.setOnItemSelectedListener(this);      // wait for the user to hit spinner drop down.
-
     }
     /*
         Method: InitiateClient()
@@ -298,9 +308,56 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         });
     }
 
-    private void readJSON(String filePath){
-        // code to readJSON file
+    /**
+     * Reads the locations data from a JSON file and returns an array of MarkerOptions objects
+     * that can then be used to add markers to a GoogleMap object.
+     *
+     * TODO Citations
+     * http://stackoverflow.com/questions/19945411/android-java-how-can-i-parse-a-local-json-file-from-assets-folder-into-a-listvi/19945484#19945484
+     *
+     * @param filePath the name of the file located in the assets folder.
+     */
+    private MarkerOptions[] readJSON(String filePath){
+        String jsonStr = null;
+        // GET JSON AS STRING
+        try {
+            InputStream inStream = getAssets().open("Sample_LocationHistory_small.json");
+//            InputStream inputStream = new FileInputStream(filePath);
+            int size = inStream.available();
+            byte[] buffer = new byte[size];
+            inStream.read(buffer);
+            inStream.close();
+            getAssets().close();
+            jsonStr = new String(buffer, "UTF-8");
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
 
+        JSONObject jsonObj;
+        JSONArray locations;
+        MarkerOptions[] markerOptions = null;
+        // RETRIEVE JSONArray FROM FILE and GET MarkerOptions
+        try {
+            jsonObj = new JSONObject(jsonStr);
+            locations = jsonObj.getJSONArray("locations"); // gets a giant JSONArray of all the locations in the JSON
+
+            markerOptions = new MarkerOptions[locations.length()];
+            for(int i = 0; i < locations.length(); i++) {
+                jsonObj = locations.getJSONObject(i);
+                long longitude = jsonObj.getLong("longitudeE7");
+                long latitude = jsonObj.getLong("latitudeE7");
+                Log.d("readJSON()", "["+ i + "]" + " :: longitude = " + longitude + ", latitude = " + latitude);
+                markerOptions[i] = new MarkerOptions();
+                markerOptions[i].position(new LatLng(latitude, longitude));
+                markerOptions[i].visible(true);
+                Log.d("readJSON()", "markerOptions[" + i + "].getPosition() = " + markerOptions[i].getPosition().toString());
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return markerOptions;
     }
 
     private void addHeatMap(GoogleMap googlemap){
