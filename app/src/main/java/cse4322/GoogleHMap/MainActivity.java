@@ -321,8 +321,8 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         String jsonStr = null;
         // GET JSON AS STRING
         try {
-            InputStream inStream = getAssets().open("Sample_LocationHistory_small.json");
-//            InputStream inputStream = new FileInputStream(filePath);
+//            InputStream inStream = getAssets().open("Sample_LocationHistory_small.json");
+            InputStream inStream = new FileInputStream(filePath);
             int size = inStream.available();
             byte[] buffer = new byte[size];
             inStream.read(buffer);
