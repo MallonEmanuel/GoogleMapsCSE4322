@@ -1,0 +1,105 @@
+{
+  "locations" : [ {
+    "timestampMs" : "1473646455162",
+    "latitudeE7" : 327489249,
+    "accuracy" : 50,
+    "longitudeE7" : -974883082
+  }, {
+    "timestampMs" : "1473646151560",
+    "latitudeE7" : 327489249,
+    "longitudeE7" : -974883082,
+    "accuracy" : 50,
+    "activitys" : [ {
+      "timestampMs" : "1473646155246",
+      "activities" : [ {
+        "type" : "still",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1473645851603",
+      "activities" : [ {
+        "type" : "still",
+        "confidence" : 100
+      } ]
+    } ]
+  }, {
+    "timestampMs" : "1473645847963",
+    "latitudeE7" : 327465356,
+    "longitudeE7" : -974835303,
+    "accuracy" : 50
+  }, {
+    "timestampMs" : "1473645500225",
+    "latitudeE7" : 327480630,
+    "longitudeE7" : -974880545,
+    "accuracy" : 50,
+    "activitys" : [ {
+      "timestampMs" : "1473645507147",
+      "activities" : [ {
+        "type" : "still",
+        "confidence" : 100
+      } ]
+    } ]
+  }, {
+    "timestampMs" : "1473645140083",
+    "latitudeE7" : 327480630,
+    "longitudeE7" : -974880545,
+    "accuracy" : 50
+  }, {
+    "timestampMs" : "1473644834201",
+    "latitudeE7" : 327489249,
+    "longitudeE7" : -974883082,
+    "accuracy" : 50,
+    "activitys" : [ {
+      "timestampMs" : "1473644837854",
+      "activities" : [ {
+        "type" : "still",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1473644534359",
+      "activities" : [ {
+        "type" : "still",
+        "confidence" : 100
+      } ]
+    } ]
+  }, {
+    "timestampMs" : "1473644527441",
+    "latitudeE7" : 327465769,
+    "longitudeE7" : -974835726,
+    "accuracy" : 50
+  }, {
+    "timestampMs" : "1473644164647",
+    "latitudeE7" : 327465356,
+    "longitudeE7" : -974835303,
+    "accuracy" : 50
+  }, {
+    "timestampMs" : "1473643804492",
+    "latitudeE7" : 327465356,
+    "longitudeE7" : -974835303,
+    "accuracy" : 50
+  }, {
+    "timestampMs" : "1473643468978",
+    "latitudeE7" : 327465356,
+    "longitudeE7" : -974835303,
+    "accuracy" : 50,
+    "activitys" : [ {
+      "timestampMs" : "1473643472858",
+      "activities" : [ {
+        "type" : "still",
+        "confidence" : 100
+      } ]
+    } ]
+  }, {
+    "timestampMs" : "1473643279745",
+    "latitudeE7" : 327480205,
+    "longitudeE7" : -974828961,
+    "accuracy" : 50,
+    "activitys" : [ {
+      "timestampMs" : "1473643285458",
+      "activities" : [ {
+        "type" : "still",
+        "confidence" : 100
+      } ]
+    }]
+  }]
+    }
