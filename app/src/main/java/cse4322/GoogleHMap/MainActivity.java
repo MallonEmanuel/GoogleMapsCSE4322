@@ -1,5 +1,6 @@
 package cse4322.GoogleHMap;
 
+import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.location.Location;
 import android.support.annotation.NonNull;
@@ -8,6 +9,7 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
 // libraries for spinners
+import android.util.JsonReader;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -34,22 +36,22 @@ import com.google.android.gms.location.LocationServices;
 
 // LatLng libraries
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
+import com.google.maps.android.heatmaps.Gradient;
+import com.google.maps.android.heatmaps.HeatmapTileProvider;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FilterInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.List;
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 
 
 public class MainActivity extends FragmentActivity implements OnMapReadyCallback,AdapterView.OnItemSelectedListener, GoogleApiClient.ConnectionCallbacks,GoogleApiClient.OnConnectionFailedListener {
@@ -66,6 +68,11 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     // initiate object for spinner
     Spinner drop_down;
 
+    HeatmapTileProvider mProvider = null;
+    TileOverlay mOverlay;
+
+    ArrayList<LatLng> list = null;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -81,6 +88,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         generateSpinner();                      // place the spinner on the fragment view.
 
         drop_down.setOnItemSelectedListener(this);      // wait for the user to hit spinner drop down.
+
     }
     /*
         Method: InitiateClient()
@@ -147,12 +155,20 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
      */
     public void onMapReady(GoogleMap googleMap) {
 
+        try {
+            //list = readItems(R.raw.sample_locationhistory_small);
+            list = readItems(R.raw.sample_locationhistory_small);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        generateHeatMapButton(googleMap);
+        toggleHeatMap(googleMap, 1);
         googleMap.setMapType(mapType);
         //googleMap.addMarker(new MarkerOptions().position(new LatLng(0,0)).title("Marker"));
         googleMap.setMyLocationEnabled(true);
         addMarkerLongClickListener(googleMap);
-        generateHeatMapButton(googleMap);
-        toggleHeatMap(googleMap);
+
     }
 
 /*
@@ -180,7 +196,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     private void generateSpinner() {
 
         drop_down = (Spinner) findViewById(R.id.maptype_spinner);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.maptype_array,android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.maptype_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         drop_down.setAdapter(adapter);
     }
@@ -291,10 +307,10 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         });
     }
 
-    private void toggleHeatMap(final GoogleMap googleMap) {
+    private void toggleHeatMap(final GoogleMap googleMap, int i) {
 
         // get ToggleButton
-        ToggleButton b = (ToggleButton) findViewById(R.id.toggleButton);
+        final ToggleButton b = (ToggleButton) findViewById(R.id.toggleButton);
 
         // attach an OnClickListener
         b.setOnClickListener(new OnClickListener()
@@ -303,7 +319,12 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             public void onClick(View v)
             {
                 // removeHeatMap function when off
-                // add heat map function when on
+                if(b.isChecked()){
+                    addHeatMap(googleMap);
+                }
+                else{
+                    removeHeatMap();
+                }
             }
         });
     }
@@ -314,59 +335,90 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
      *
      * TODO Citations
      * http://stackoverflow.com/questions/19945411/android-java-how-can-i-parse-a-local-json-file-from-assets-folder-into-a-listvi/19945484#19945484
+     * sample readItems taken from https://github.com/googlemaps/android-maps-utils/blob/master/demo/src/com/google/maps/android/utils/demo/HeatmapsDemoActivity.java
      *
-     * @param filePath the name of the file located in the assets folder.
+     * @param resource the name of the file located in the assets folder.
      */
-    private MarkerOptions[] readJSON(String filePath){
-        String jsonStr = null;
-        // GET JSON AS STRING
-        try {
-//            InputStream inStream = getAssets().open("Sample_LocationHistory_small.json");
-            InputStream inStream = new FileInputStream(filePath);
-            int size = inStream.available();
-            byte[] buffer = new byte[size];
-            inStream.read(buffer);
-            inStream.close();
-            getAssets().close();
-            jsonStr = new String(buffer, "UTF-8");
-        } catch (IOException e) {
-            e.printStackTrace();
-            return null;
+    /**
+     * Read the data (locations of police stations) from raw resources.
+     */
+    private ArrayList<LatLng> readItems(int resource) throws JSONException {
+        ArrayList<LatLng> list = new ArrayList<LatLng>();
+        InputStream inputStream = getResources().openRawResource(resource);
+        @SuppressWarnings("resource")
+        String json = new Scanner(inputStream).useDelimiter("\\A").next();
+        //Log.d("json string", json);
+
+        JSONObject jsonObject = new JSONObject(json);
+        JSONArray array = jsonObject.optJSONArray("locations");
+
+        for (int i = 0; i < array.length(); i++) {
+            //Log.d("JSONArray",array.toString());
+            JSONObject object = array.getJSONObject(i);
+            // Used for the police station samples
+            //double lat = object.getDouble("lat");
+            //double lng = object.getDouble("lng");
+            //list.add(new LatLng(lat, lng));
+
+            //used for the small location samples from Google Takeouts
+            double latitude = object.getLong("latitudeE7");
+            double longitude = object.getLong("longitudeE7");
+
+            latitude =  latitude / 10000000;
+            longitude = longitude / 10000000;
+
+            //Log.d("JSON Objects",latitude + " " + longitude);
+            list.add(new LatLng(latitude, longitude));
         }
 
-        JSONObject jsonObj;
-        JSONArray locations;
-        MarkerOptions[] markerOptions = null;
-        // RETRIEVE JSONArray FROM FILE and GET MarkerOptions
-        try {
-            jsonObj = new JSONObject(jsonStr);
-            locations = jsonObj.getJSONArray("locations"); // gets a giant JSONArray of all the locations in the JSON
-
-            markerOptions = new MarkerOptions[locations.length()];
-            for(int i = 0; i < locations.length(); i++) {
-                jsonObj = locations.getJSONObject(i);
-                long longitude = jsonObj.getLong("longitudeE7");
-                long latitude = jsonObj.getLong("latitudeE7");
-                Log.d("readJSON()", "["+ i + "]" + " :: longitude = " + longitude + ", latitude = " + latitude);
-                markerOptions[i] = new MarkerOptions();
-                markerOptions[i].position(new LatLng(latitude, longitude));
-                markerOptions[i].visible(true);
-                Log.d("readJSON()", "markerOptions[" + i + "].getPosition() = " + markerOptions[i].getPosition().toString());
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
-        return markerOptions;
+        return list;
     }
 
     private void addHeatMap(GoogleMap googlemap){
+
+        int[] colors = {
+                Color.rgb(102, 225, 0), // green
+                Color.rgb(255, 0, 0)    // red
+        };
+
+        float[] startPoints = {
+                0.2f, 1f
+        };
+
+        Gradient gradient = new Gradient(colors, startPoints);
+
+        if(googlemap == null){
+            Log.d("googlemap Check Null", "google map is null!!");
+        }
+
         // function to add the map once the json file is parsed
+        // Get the data: latitude/longitude positions of police stations.
+        // Create a heat map tile provider, passing it the latlngs of the police stations.
+        if (mProvider == null){
+/*
+            for(int i = 0; i < list.size(); i++){
+                Log.d("print list:  ", String.valueOf(list.get(i)) + " " + String.valueOf(list.get(i)));
+            }
+*/
+            Log.d("AddHeatMap", "Adding heat map....");
+
+            mProvider = new HeatmapTileProvider.Builder()
+                    .data(list)
+                    .gradient(gradient)
+                    .opacity(.7)
+                    .radius(35)
+                    .build();
+            mOverlay = googlemap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
+            // Add a tile overlay to the map, using the heat map tile provider.
+        }else{
+            mProvider.setData(list);
+        }
+
     }
 
-    private void removeHeatMap(GoogleMap googleMap){
-        // add code to remove heat map function: mOverlay.remove();
+    private void removeHeatMap(){
+        mOverlay.clearTileCache();
+        mOverlay.remove();
+
     }
-
-
 }

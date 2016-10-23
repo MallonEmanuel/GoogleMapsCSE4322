@@ -11,7 +11,8 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentBottom="false"
-        android:layout_below="@+id/maptype_spinner" />
+        android:layout_below="@+id/maptype_spinner"/>
+
 
     <Spinner
         android:layout_width="wrap_content"
@@ -43,7 +44,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Heat Map"
+        android:text="Read JSON"
         android:id="@+id/button"
         android:layout_alignParentTop="true"
         android:layout_toLeftOf="@+id/toggleButton"
