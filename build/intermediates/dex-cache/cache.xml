@@ -3,489 +3,552 @@
 
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="f4fb6981392ca7680d02fd57d26d6124c141d9d9">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.0.2_b6a15ab7ca0c31fdabb4c7caad39a4850dfeb7e0.jar" />
+        revision="23.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_01a3a10edc4e4f68e873eec0303c3e8a2f28049e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="d900f2a1ff098cac8befe6c023d723e9afb154be">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.0.2_043bacc18fa91ab1713effece598a50169731283.jar" />
+        revision="23.0.2"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.8.0_fa6a76579e407415b142590466715d0898251e0c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.0.2_55c6487caed466c987212eb54bb16d1e088bd9d7.jar" />
+        revision="23.0.2"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.8.0_725988a78e3e5c6c58b258aa8ffe54a7b819c185.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="6c58c14d15602fea2c50138c73bb107e8b832b62">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.0.2_584c136c2ae765ddb35013f4fdf22c6a8503987d.jar" />
+        revision="23.0.2"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.8.0_c13efe8c70732a9f662cbbde39ef558864ab7cb7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.2_a7a1d2bd936a6fb06c0ea5de91b36a540cceae17.jar" />
+        revision="23.0.2"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-9.8.0_71fb92d4fd210a814259260948b04f3f170a2c3d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="cd4c7c54e15d9ccbc448384fa2c4684d69ca73f0">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-9.0.2_0cbf1cf8e8ddf5db400ccd4659126ba732f625ae.jar" />
+        revision="23.0.2"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.8.0_2821352026cfa5180c21452fb1a03c19e5c89db1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.0.2_307c13dc675b7654c75183d37ec72d116932f71e.jar" />
+        revision="23.0.2"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.8.0_b994985ffbc64a357a5dd4ef11c08fc898720edd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="8c0fc9b1ea0bac0cb31d60c8b1bf2feb0518e3a9">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-9.0.2_8b77cd164bde7e2514bff62ec6515920f9c17a59.jar" />
+        revision="23.0.2"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.8.0_131af9bf82b036fde11d543d9e1070b862b56e84.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="604ecf403feb0084dc6d0c12f1677a490cf45e4c">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-config-9.0.2_f501a7bba0ed3c25ddc55ccfe2aca9e88541eeee.jar" />
+        revision="23.0.2"
+        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-framework-9.8.0_b8c6326d0e13a2295ca9b4ca94bad7c066e62dba.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.0.2_f45a97b3cd6d2168d3104642bdef5efc17194079.jar" />
+        revision="23.0.2"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.8.0_324a1d69f0e5eb68b29e8a5f31fc98b4dc9344ce.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.0.2_2ff1cbb875ba951563ba449dca9570825c765a27.jar" />
+        revision="23.0.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_7636473a91e8b50a9935ca61e4b654baa7be0120.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_d26ac796fa4fbdc4a14d5ef9ae3a0b0a4974aaad.jar" />
+        revision="23.0.2"
+        sha1="fbb3885c40e431cd2b0dc69c0cab2bf6d5da7b43">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-9.8.0_4dcd07511e78cd7d755f2db7757eb59feb11e2fd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="922c24fbfc4247947fcfaf2b95f295a16a8c3d17">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.0.2_4bfbe17ff0584dc3e0e11f3683cf25cd6165fc03.jar" />
+        revision="23.0.2"
+        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-9.8.0_da133fb69a78270b219e0d9b1cfc88d1d05fecaa.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="764d32faf85bc6f7bd2cdcb3a70a482c1884fdd2">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-9.0.2_a2dd4a3bbf6eff7c4c13ae0744f1dade30919700.jar" />
+        revision="23.0.2"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_d29b8f6b34ceeef5ed585125f1f83ba22dd57b55.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_dc17047f8dfab8411ed36c0a6c246f9f695068e6.jar" />
+        revision="23.0.2"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.8.0_f53fdac06f4b9584151bc0bc0205d542dbf7b114.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_ea48a39d4505af98a0ffafd32ca12bc8fb378975.jar" />
+        revision="23.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_b6f89f554aae50926ab168ae2d8004d10011d92b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.0.2_2304eb9a347dce32ff743cf3f4476ddcffc50e00.jar" />
+        revision="23.0.2"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-9.8.0_699e2153950f19751b9170fb9cc1c7b1501662a2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_6d851d9a3cbbe5d1dac573180ea50da442a0ff00.jar" />
+        revision="23.0.2"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.8.0_76901e01e0f218695763db1edee32b8f4ddcf5d8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="fe5b47e764869f1076cb9cfe12801ed2ef4e9117">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.0.2_034aa5f5b49564872c62e31a9346d874988b93c9.jar" />
+        revision="23.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_194d75b4f2b43b037f37232f830c249594bc7fdd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="e11da70cff6a544a45cdc21f419802d9bb9043ac">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-9.0.2_1c6712b56b66c7100786aae2f40442a9e5866400.jar" />
+        revision="23.0.2"
+        sha1="c81df6bd515398ebe45089b0b16c55752a131f6a">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-9.8.0_a8b44ae2e3fae18708e55c68effc9ac02a061be5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.4.4\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.0.2_f91a202ff48699b28296ff825fd5080b877147ad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="6ff48ef26bc539c78af4aa061cb9bad6abcbf5e8">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-common-9.0.2_16d414e4a0346654f4d9d811168cc9471816d36e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.0.2_42fa178965168fea06148090af962f25a25694db.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="92a1d5f71b0fc8938f1d3f2e6ef984b52b894b4d">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.0.2_920ab5455b4ac18affb33a3a01edfc53798df362.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="7e52b440a26498c56b4f263e215223b5451c955e">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-9.0.2_99bd3cb36395566c15b21fd424b44fb1227866bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.0.2_b85f6480660a51389303937d1432ece1b9a6e416.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.0.2_ecf8473c3996905614cd45fca4135f45c7d092f3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="060a7157438a0b1b0706b99c430fb3ecbc5a79a4">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.0.2_f01412ec5a4aed5da034c61c3bd332bf75e9bb95.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="cf16220db9128d91a215aedc739584181d5ca6a4">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.0.2_32d31dfb8327f7783c822240ecf7c770c3373c60.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="53f10fcd322a3931495d6ca2078a81f4957cdbce">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-9.0.2_74969564fc9feeaddcc443fb6302a951415784e7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="2ab5be19bbd34bae74662ea6b2d4451314d92d97">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.0.2_a224def4a6ba6b75984829a3127699579a6ed74e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="c96952c162c9f6076f44c5939982cb35491442ea">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-9.0.2_37569ec96567884e2d052580e2d1d268dab47910.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="a45bc1ed812137b21dddd1cedaa3712b308f0b3f">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-9.0.2_a62da1bc69aa8a5a0936e71d5f2014bae313985d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="bc156efaaee99f1ef6bf471347373a4cbb28e2a1">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-9.0.2_0386d44332fa7b5574fcc3eebfa613fa93f8feb3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="829c6e46cb221c2102801221c648b77113743e81">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.0.2_dcffbeeecd3e05833a593464a7f5182459a450aa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="d9ea4cdaafa29ec4651d6e4715788d3fcaa7b913">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-9.0.2_742407c6e3ab56d44bac26b74d3a96e92f28071b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="a498fab72f8663c26fbf3d4496eb6b673b17bcae">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-9.0.2_43a71990c1f89b0e965ee3fbcf6bb6f2bfa72932.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="b6af089f583d547bcffc0689b2e80bc7aaa54b15">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-9.0.2_1ff05d2f69b291fae98d101b28e1e2b67c5fa761.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="f399a2fde7888450cadcaec4974bfd169d8cce43">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-api-9.0.2_45ed74eba4d2ac742938eb6bbff7fe3301f01d2a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.0.2_47a745fae788beedc6fdfe15c95bf08664265cf1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="b8e0372ca6dc89ac4fe22b76eeea4f68ece435b8">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.0.2_eed7a278c6c66763820f56b4cfe8e429083c6a19.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.4.4\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
+        revision="23.0.2"
         sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.maps.android-android-maps-utils-0.4.4_013531ed4df741c68f855128d29dc4082e11058a.jar" />
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.maps.android-android-maps-utils-0.4.4_2b580e384f5452ed867800fdff8f27e39a7d07b2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="20e1a0f0de6276a5f36062b655f8b20f8cc00cc4">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.0.2_6a19424ae71bf61e7b5a1afdf8a08431ad704422.jar" />
+        revision="23.0.2"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-common-9.8.0_2d7d489eebe87a1ac21622d4003a24b2a94bef8f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="4f0ef631606bac00f526887bbb0d78aa3b4d8a3e">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\instant-run_eb16a6cbd05df7b5b2fdd9780b119ff992a85889.jar" />
+        revision="23.0.2"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-9.8.0_8c7e43524557d289a377e1d3883a4d260a38b335.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_b3f68e31a626252400e9a4fd099d4023912a3fd1.jar" />
+        revision="23.0.2"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.8.0_e59ebb50952493e9f72c99f6e88da27b784e90ee.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="0c835e9f3875cf245877c9b17d1c69bc98f16057">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-9.0.2_b7a53fdad8c62131986a8efb5e50afee0c6eccd3.jar" />
+        revision="23.0.2"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-9.8.0_fd015037db2192c04fd5c366ae825b72feb315ca.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-23.0.0_040649d97c5aefd24a6b7ba053b2f98a3c5b5dbe.jar" />
+        revision="23.0.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_de020834ea2d9b70112777197d71a039cba42518.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_0f9170f4fff2cd7644205e5ba6f85d0d5449702b.jar" />
+        revision="23.0.2"
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-9.8.0_094c37aebf904905b8ac99ea31b2aa0c999fbcbc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="7dfadcca5ba950d8a9e58952387277e660610cc1">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_905e61e87328381b004037642fe07c09146834cb.jar" />
+        revision="23.0.2"
+        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-9.8.0_068f321d485d2faf1f678e84a053d4ca6484a98d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.0.2_fd48e9a752c394410746b0e657183056178cb66c.jar" />
+        revision="23.0.2"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_cd11008cb1d5e1d45cf49fafc1966cc13b9923ef.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="143813b18381b28de1e04aae1d92fcb374a0add9">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-9.0.2_8ed9185408597db56faad838bff76b8f95b1f455.jar" />
+        revision="23.0.2"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.8.0_7b459576d1599dab7b2b5550a7203137fff9416f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.0.2_e1fac51a592dcb7e472620c595f2308836861e41.jar" />
+        revision="23.0.2"
+        sha1="0b8e087da59c0b062c33f49a335e59f907086da2">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-9.8.0_4207539685eda501739b2063115025dd57758a56.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.2\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.0.2_bffe4ddf7426c1340bd320b979cda367c2e9157d.jar" />
+        revision="23.0.2"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.8.0_0d393ea9a0e82b42496d1e3852d5d072ea136952.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.8.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="22.0.1"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\AndroidProjects\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_a9041c66b6b3843dd5ca91ef9a6d53c3609ceddd.jar" />
+        revision="23.0.2"
+        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-9.8.0_5b0b3d44d5c2ab2ecf20ee7ad9b70104f6e85eba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.8.0_72565886f6219537da9e021edd63a6ebdbea74fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.8.0_f09057d62ec70d4e12641c14701fa9689dcee935.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e56f31b23ddb067f95f01255295167db7c798612">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-9.8.0_90ba6d15d060baefd2a90ffeac8ac8207d1cbd3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-api-9.8.0_3cbfc6b49ae0b38a516a31d08254f8d31fe3e977.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-awareness-9.8.0_83f90a29bf9834f941e667adf47c1c92208057be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.8.0_6c01f5b2071993d4aaf18fa50de3b53e15412fdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-24.0.0_12ff46abeeab5342a6affa61a0873bb7cb4faf9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.8.0_35f7cea19368b5ff7089eba457cb2154e63955cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="54c3e6554e34661a49e7a9dbc6f082f5ec9ee332">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\instant-run_5c78bacf407309630d7e527f37af7cc0e00b3f5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_443cdf973f055fc5f04fbd7a0d67c1d81b9cee5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-palette-v7-24.0.0_60a3eb003ca8bad8394dda4d355d04970ddd4bbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.8.0_f219eb972678e4a15a3426497984cecb64814cdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_95ac2955300baaf52f3505e66474867fcb249795.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.8.0_44d2e4b5c37cd6abaad6478115adbe41c570ae8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.8.0_b90885ca530c9a863c7289902ba72c8669437993.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.8.0_13c627c6bf5937929e834b7f222a2c2ea3ff2bb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-9.8.0_013d8dca7e7c0c946c6e140ce7f2de95edcf9060.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.8.0_2fa0732a06ccb367d9ebc908a956b10cc6cd71dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6d17a1b5e24b0fb1828d55b7c39f1a1b545c3c79">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_272dc3dd6db6cfbea7ab05874a2d478f1668461d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.8.0_daaf9f41b914c08d98cbced0a51ad7d45af9cb8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a972970c8beddb69c198f61f3fc55f0606a7dfe3">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-9.8.0_bc24e41c4121b5938b8cbe7967b3e6bf199c186f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="74ac7cbcf0de4a88e59612dc3a9e3f9e71acb4ca">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-9.8.0_7e38f9c57c1d91b54b4c7ee6d582bc633b67a890.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.8.0_a75814a1e9276e9480071819ad14562d240beee7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_63181ef22c6493410046837b09f0b6b3fa4f0a6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.8.0_c05b751a191f8601dc0c214f7ccd72e5eb5b8b5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.8.0_2c3ede81a2d3503f1d8a167250010e8557e53f65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="00d358528c5a8731a6e19bca910cbb3fd755ee31">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-instantapps-9.8.0_626ef20e1b79bfe5b260ed202b3232c3f3732e88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="C:\Users\daniel\School\CSE4322\GoogleMapsCSE4322\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-config-9.8.0_717d9ac7ac79d05c6cbdad42977af3493aa35821.jar" />
     </item>
 
 </items>
