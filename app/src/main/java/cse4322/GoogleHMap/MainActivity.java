@@ -1,6 +1,5 @@
 package cse4322.GoogleHMap;
 
-import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.location.Location;
 import android.support.annotation.NonNull;
@@ -51,6 +50,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -73,7 +73,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     HeatmapTileProvider mProvider = null;
     TileOverlay mOverlay;
 
-    ArrayList<LatLng> list = null;
+    ArrayList<LatLng> list = new ArrayList<LatLng>();
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,6 +90,8 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         generateSpinner();                      // place the spinner on the fragment view.
 
         drop_down.setOnItemSelectedListener(this);      // wait for the user to hit spinner drop down.
+
+        //list = new Database().getCoordinatePairs();
 
     }
     /*
@@ -157,9 +159,10 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
      */
     public void onMapReady(GoogleMap googleMap) {
 
+        Database database = new Database().getFirebaseData();
+
         try {
-            //list = readItems(R.raw.sample_locationhistory_small);
-            list = readItems(R.raw.sample_locationhistory_small);
+             list = readItems(R.raw.sample_locationhistory_fourth);
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -173,7 +176,13 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
     }
 
-/*
+    public void setList(ArrayList<LatLng> list) {
+        this.list = list;
+    }
+
+
+
+    /*
     FunctionName: AddMarkerLongClickListener
     parameters: (NonNull) Map
     return none
@@ -366,8 +375,14 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             double latitude = object.getLong("latitudeE7");
             double longitude = object.getLong("longitudeE7");
 
+            DecimalFormat newformat = new DecimalFormat("#.#####");
+
             latitude =  latitude / 10000000;
             longitude = longitude / 10000000;
+
+            latitude = Double.valueOf(newformat.format(latitude));
+            longitude = Double.valueOf(newformat.format(longitude));
+
 
             //Log.d("JSON Objects",latitude + " " + longitude);
             list.add(new LatLng(latitude, longitude));
@@ -376,7 +391,9 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         return list;
     }
 
-    private void addHeatMap(GoogleMap googlemap){
+    public void addHeatMap(GoogleMap googlemap){
+
+
 
         int[] colors = {
                 Color.rgb(102, 225, 0), // green
@@ -405,12 +422,17 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             Log.d("AddHeatMap", "Adding heat map....");
 
             mProvider = new HeatmapTileProvider.Builder()
+
                     .data(list)
-                    .gradient(gradient)
-                    .opacity(.7)
-                    .radius(35)
+                    .radius(50)
                     .build();
             mOverlay = googlemap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
+            mProvider.setRadius(100);
+            mProvider.setGradient(gradient);
+            mProvider.setOpacity(.7);
+            mOverlay.clearTileCache();
+
+
             // Add a tile overlay to the map, using the heat map tile provider.
         }else{
             mProvider.setData(list);
