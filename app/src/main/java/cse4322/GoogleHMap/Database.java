@@ -24,10 +24,13 @@ public class Database extends MainActivity {
 
     public ArrayList<LatLng> coordinate_pairs = new ArrayList<LatLng>();
 
+    /*
+        This is the firebase connector that retrieves the store data and pushes it to the heat map overlay
+     */
     public Database getFirebaseData() {
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference mDatabaseTable = database.getReference("locations");
+        FirebaseDatabase database = FirebaseDatabase.getInstance(); // create a new database instance.
+        DatabaseReference mDatabaseTable = database.getReference("locations");  // get the node from firebase called "locations"
 
         Log.d("DatabaseQuery", mDatabaseTable.toString());
 
@@ -35,7 +38,7 @@ public class Database extends MainActivity {
 
             ArrayList<LatLng> pairs = new ArrayList<LatLng>();
 
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(DataSnapshot dataSnapshot) {       // get the current snapshot of the database to return stored points
 
                 dataSnapshot.getChildren();
 
@@ -48,18 +51,20 @@ public class Database extends MainActivity {
                         Double latitude = Double.valueOf(latitude_s);
                         Double longitude = Double.valueOf(longitude_s);
 
+                        // the points are in e7. Multiply by 10 million to get the tens value. i.e "10.00"
                         latitude = latitude/10000000;
                         longitude = longitude/10000000;
 
                         Log.d("DatabaseListener", String.valueOf(latitude) + " " + String.valueOf(longitude));
 
-
+                        // add to the pair
                         pairs.add(new LatLng(latitude,longitude));
                         //Log.d("PairsInsert",String.valueOf(pairs.get(0)));
                         Log.d("DatabasePairs", String.valueOf(pairs.size()));
 
                 }
 
+                // create a new database pair and set the current array values
                 DBCoordinates coords = new DBCoordinates(pairs);
                 Database.this.coordinate_pairs = coords.getCoordinates();
                 setCoordinate_pairs(coords.getCoordinates());
@@ -79,10 +84,12 @@ public class Database extends MainActivity {
         return Database.this;
     }
 
+    // get point data
     public ArrayList<LatLng> getCoordinate_pairs() {
         return Database.this.coordinate_pairs;
     }
 
+    // set point data
     public void setCoordinate_pairs(ArrayList<LatLng> coordinate_pairs) {
         this.coordinate_pairs = coordinate_pairs;
     }
