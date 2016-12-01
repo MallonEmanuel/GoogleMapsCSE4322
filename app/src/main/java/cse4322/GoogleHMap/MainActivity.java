@@ -98,11 +98,13 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 if (mProvider != null){
-                    mOverlay.clearTileCache();
-                    mProvider.setRadius(progress);
-                }
-                else if (progress == 0){
-                    mOverlay.clearTileCache();
+                    if (progress == 0){
+                        mOverlay.clearTileCache();
+                    }else {
+
+                        mOverlay.clearTileCache();
+                        mProvider.setRadius(progress);
+                    }
                 }
 
             }
