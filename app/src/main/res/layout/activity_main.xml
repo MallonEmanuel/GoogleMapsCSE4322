@@ -52,4 +52,18 @@
         android:layout_above="@+id/map"
         android:textSize="12dp" />
 
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="56dp"
+        android:id="@+id/seekBar2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@android:style/Widget.Holo.Light.SeekBar"
+        android:progress="50"
+        android:max="250" />
+
 </RelativeLayout>

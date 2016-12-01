@@ -15,6 +15,8 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.SeekBar;
+import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Spinner;
 
 // libraries to handle text display
@@ -90,6 +92,31 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         generateSpinner();                      // place the spinner on the fragment view.
 
         drop_down.setOnItemSelectedListener(this);      // wait for the user to hit spinner drop down.
+
+        SeekBar seekBar = (SeekBar) findViewById(R.id.seekBar2);
+        seekBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                if (mProvider != null){
+                    mOverlay.clearTileCache();
+                    mProvider.setRadius(progress);
+                }
+                else if (progress == 0){
+                    mOverlay.clearTileCache();
+                }
+
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
 
         //list = new Database().getCoordinatePairs();
 
@@ -422,12 +449,12 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             Log.d("AddHeatMap", "Adding heat map....");
 
             mProvider = new HeatmapTileProvider.Builder()
-
                     .data(list)
                     .radius(50)
                     .build();
             mOverlay = googlemap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
-            mProvider.setRadius(100);
+
+            //mProvider.setRadius(100);
             mProvider.setGradient(gradient);
             mProvider.setOpacity(.7);
             mOverlay.clearTileCache();
@@ -445,4 +472,5 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         mOverlay.remove();
 
     }
+
 }
