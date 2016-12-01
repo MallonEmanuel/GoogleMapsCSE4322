@@ -191,7 +191,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         Database database = new Database().getFirebaseData();
 
         try {
-             list = readItems(R.raw.sample_locationhistory_fourth);
+             list = readItems(R.raw.sample_locationhistory_small_updated);
         } catch (JSONException e) {
             e.printStackTrace();
         }
